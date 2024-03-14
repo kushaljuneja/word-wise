@@ -3,6 +3,8 @@ english vocab learning tool for personal use
 
 ![High Level Overiew](./high-level-overview.png)
 
+The python service to query notion is a cron job that runs every 24 hours. Which then triggers the send mail service.
+
 ![email](./email.png)
 
 The user creates the following excel based on the given words :
@@ -17,3 +19,14 @@ Upload the excel back on the webportal. The form submission will trigger a pytho
 Logs are stored in a local sqlite database in the following format
 
 ![logs](./logs.png)
+
+---
+
+Format of `secrets.json` file (not tracked on git) :
+
+```json
+{
+	"NOTION_API_KEY": "",
+	"RESEND_API_KEY": "" 
+}
+```
