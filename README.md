@@ -3,7 +3,7 @@ english vocab learning tool for personal use
 
 ![High Level Overiew](./high-level-overview.png)
 
-![email](./email.png)
+![email](./email.svg)
 
 The user creates the following excel based on the given words :
 
