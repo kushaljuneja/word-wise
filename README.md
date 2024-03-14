@@ -7,7 +7,7 @@ english vocab learning tool for personal use
 
 The user creates the following excel based on the given words :
 
-![excel](./excel.png)
+![excel](./excel.svg)
 name the excel file as `<8-digit-unique-code>.xlsx`
 
 NOTE : a given word can appear in the above excel mutiple times. This is useful for homonyms.
