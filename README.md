@@ -1,6 +1,8 @@
 # word-wise
 english vocab learning tool for personal use
 
+![High level architecture diagram](./IMG_0043.jpeg)
+
 ![High Level Overiew](./high-level-overview.png)
 
 The python service to query notion is a cron job that runs every 24 hours. Which then triggers the send mail service.
